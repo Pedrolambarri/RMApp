@@ -1,0 +1,21 @@
+.clicked {
+    opacity: 0;
+    pointer-events: none;
+
+    width: 400; 
+    height: 400px; 
+    z-index: 2;
+    transition: opacity 1s ease-in-out;
+    display: none;
+   
+  }
+
+.portal-div {
+    margin: 0 auto;
+   
+}
+
+.soundboard {
+    display: flex;
+    justify-content: center;
+}

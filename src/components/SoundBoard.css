@@ -1,0 +1,63 @@
+.portal {
+    margin: 200px;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 1px 69px 14px#05e0fd;
+    -webkit-box-shadow: 2px 1px 69px 14px#05e0fd;
+    -moz-box-shadow: 2px 1px 69px 14px#05e0fd;
+    width:500px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(18, 17, 17, 0.999);
+}
+
+.portal button {
+   color: #05e0fd;
+   font-size: 20px;
+   border: solid 1px #54f708;
+}
+
+.portal img {
+    transform: rotate(0deg);
+    transition: transform 0.5s ease;
+}
+
+.portal .pickle:hover {
+    animation: girar 2s linear infinite;
+}
+
+.pickle {
+    position: absolute;
+    top: 250px;
+    right:250px;
+}
+
+.meeseeks {
+    position: absolute;
+    width: 200px;
+    bottom: 123px;
+    right: 150px;
+}
+
+@keyframes girar {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+.btn-shine.playing::before {
+
+    font-size: 20px;
+}
+
+.pickle {
+width: 100px;
+height: 100px;
+}

@@ -1,0 +1,21 @@
+#root {
+  width: 100vw;
+  margin: 0 auto;
+  font-family: 'Coming Soon', cursive;
+  text-align: center;
+  background-color: black;
+  font-size: 14px;
+}
+
+body {
+  background-color: black;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color:white;
+  font-weight: lighter;
+ 
+}
